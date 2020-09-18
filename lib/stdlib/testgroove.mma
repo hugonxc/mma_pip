@@ -1,0 +1,14 @@
+SeqClear
+  SeqSize 1
+  Timesig 4 4
+  
+Begin Chord Define
+  C1 1 2+4 80; 4 4 80
+End
+
+Begin Chord-RightHandPiano
+  Voice Piano1
+  Sequence C1
+End 
+
+DefGroove TestGroove
