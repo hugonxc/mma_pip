@@ -36,7 +36,8 @@ version = "20.02"        # Version -- Feb/2020
 """
 
 # from __main__ import MMAdir, platform
-MMAdir, platform = "",""
+from mma import MMAdir, platform_so
+platform = platform_so
 
 """ mtrks is storage for the MIDI data as it is created.
     It is a dict of class Mtrk() instances. Keys are the

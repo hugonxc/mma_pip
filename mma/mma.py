@@ -27,7 +27,7 @@ import os
 import platform
 
 
-if __name__ == "__main__":
+def cli():
     # Ensure a proper version is available.
     # This test forces 2.6+ or 3.x
     if sys.version_info[0] == 2 and sys.version_info[1] < 6:
