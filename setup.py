@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hugonxc/mma_pip",
-    packages=setuptools.find_packages(include=['mma.*']),
+    packages=setuptools.find_packages(include=['mma.MMA.MMA*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

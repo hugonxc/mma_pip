@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2019.2 (Released June 5, 2019) -->
+<HTML lang="EN">
+<HEAD>
+<TITLE>Enviroment Variables</TITLE>
+<META NAME="description" CONTENT="Enviroment Variables">
+<META NAME="keywords" CONTENT="mma">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="viewport" CONTENT="width=device-width, initial-scale=1.0">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2019.2">
+
+<LINK REL="STYLESHEET" HREF="mma.MMA.css">
+
+<LINK REL="next" HREF="node30.html">
+<LINK REL="previous" HREF="node28.html">
+<LINK REL="next" HREF="node30.html">
+</HEAD>
+
+<BODY  bgcolor="#ffffff">
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A
+ HREF="node30.html">
+<IMG WIDTH="37" HEIGHT="24" ALT="next" SRC="next.png"></A> 
+<A
+ HREF="mma.MMA.html">
+<IMG WIDTH="26" HEIGHT="24" ALT="up" SRC="up.png"></A> 
+<A
+ HREF="node28.html">
+<IMG WIDTH="63" HEIGHT="24" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A
+ HREF="node30.html">Other Commands and Directives</A>
+<B> Up:</B> <A
+ HREF="mma.MMA.html">Reference Manual</A>
+<B> Previous:</B> <A
+ HREF="node28.html">Fine Tuning and Tweaks</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H1><A ID="SECTION002900000000000000000"></A> <A ID="sec-envvar"></A>
+<BR>
+Enviroment Variables
+</H1>
+
+<P>
+
+<FONT Face="Serif"  Color="Navy"><I>MMA</I></FONT>  checks for enviroment variables when starting so it can modify
+seldom changed settings. The list is short, but will probably expand
+in the future to support arcane and unusual requests.
+
+<P>
+<DL>
+<DT><STRONG>MMA_ENCODING</STRONG></DT>
+<DD>By default 
+<FONT Face="Serif"  Color="Navy"><I>MMA</I></FONT>  uses cp1252 to encode input and
+  output files. You can change this via the MMA_ENCODING environment
+  variable. If it doesn't work, you are on your own. Please note, this
+  variable must be all uppercase with a single underscore in between
+  MMA and ENCODING.
+
+<P>
+</DD>
+<DT><STRONG>MMA_LOGFILE=filename</STRONG></DT>
+<DD>Rather than printing errors and other runtime
+  information to standard output (the terminal screen) this option
+  sets a filename for saving the output. Note that if the file already
+  exists it will be appended to (useful when you have multiple files
+  to debug). F<SMALL>ILENAME</SMALL> should be a normal
+  file name understood by your operating system.
+
+<P>
+The file will only be created if there is output other than 
+<FONT Face="Serif"  Color="Navy"><I>MMA</I></FONT> 
+  P<SMALL>RINT</SMALL> statements. A header showing the date will be inserted
+  at the top of the file.
+
+<P>
+The easy way to use this is with a command line like:
+
+<P>
+
+      <Table Hspace="40%" CellSpacing=0 CellPadding=10 BGColor="OldLace" Border=3>
+        <tr><td>
+    <B>$ MMA_LOGFILE=abc mma test.mma  </B> 
+   
+	    </td></tr>
+      </Table>
+
+<P>
+</DD>
+</DL>
+
+<P>
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>
