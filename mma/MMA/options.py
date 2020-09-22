@@ -63,11 +63,12 @@ def opts(l=None):
 
     try:
         opts, args = getopt.gnu_getopt(
-                         l, "b:B:dpsS:ri:wneom:f:M:cLgGvVD:01PT:I:x:", [])
+                         l, "b:B:dpsS:ri:wneom:f:M:cLgGvVD:01PT:I:x:u:U:", [])
     except getopt.GetoptError:
         usage()
 
     for o, a in opts:
+        print("ASDF", o, a)
         if o == '-b':
             setBarRange(a)
 
@@ -108,6 +109,18 @@ def opts(l=None):
             if internal:
                 cmdError("-G")
             gbl.makeGrvDefs = 2
+
+        elif o == '-u':
+            if internal:
+                cmdError("-u")
+            import mma.MMA.userGroove
+            gbl.makeGrvDefs = mma.MMA.userGroove.update_grooves(a)
+
+        elif o == '-U':
+            if internal:
+                cmdError("-U")
+            import mma.MMA.userGroove
+            gbl.makeGrvDefs = mma.MMA.userGroove.add_grooves(a)
 
         elif o == '-m':
             try:
