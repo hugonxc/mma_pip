@@ -68,7 +68,6 @@ def opts(l=None):
         usage()
 
     for o, a in opts:
-        print("ASDF", o, a)
         if o == '-b':
             setBarRange(a)
 
@@ -327,6 +326,8 @@ def usage(msg=''):
         " -s    display Sequence info during run",
         " -S <var[=data]>  Set macro 'var' to 'data'",
         " -T <tracks> Limit generation to specified tracks",
+        " -u    update User Groove dependency database",
+        " -U    create User Groove dependency database",
         " -v    display Version number",
         " -V <groove [options]> preview play groove",
         " -w    disable Warning messages",
