@@ -25,7 +25,7 @@ Bob van der Poel <bob@mellowood.ca>
 import mma.MMA.notelen
 import mma.MMA.translate
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup
 

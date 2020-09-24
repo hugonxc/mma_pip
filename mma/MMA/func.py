@@ -27,7 +27,7 @@ Code for Defaults and recursion stack Ignazio Di Napoli.
 """
 
 import copy
-from . import gbl
+from mma.MMA import gbl
 import mma.MMA.file
 from mma.MMA.macro import macros
 from mma.MMA.common import *

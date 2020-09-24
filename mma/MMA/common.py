@@ -32,7 +32,7 @@ without side effects (yeah, right).
 from random import randrange
 import sys
 import time
-from . import gbl
+from mma.MMA import gbl
 from textwrap import wrap
 import mma.MMA.debug
 

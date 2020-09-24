@@ -32,7 +32,7 @@ import mma.MMA.chords
 import mma.MMA.volume
 import mma.MMA.exits
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.macro import macros
 

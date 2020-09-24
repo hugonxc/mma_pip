@@ -22,7 +22,7 @@ Bob van der Poel <bob@mellowood.ca>
 
 """
 
-from . import gbl
+from   mma.MMA import gbl
 from   mma.MMA.common import *
 import mma.MMA.paths
 import mma.MMA.debug

@@ -40,7 +40,7 @@ import mma.MMA.trigger
 import mma.MMA.rpitch
 import mma.MMA.debug
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.miditables import NONETONE
 

@@ -29,7 +29,7 @@ import time
 import mma.MMA.midiC
 import mma.MMA.grooves
 
-from . import gbl
+from   mma.MMA import gbl
 from   mma.MMA.common import *
 
 

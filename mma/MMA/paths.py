@@ -26,7 +26,7 @@ This module contains functions for setting various path variables.
 
 import os
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 import mma.MMA.auto
 import mma.MMA.grooves

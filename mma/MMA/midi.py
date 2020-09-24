@@ -26,7 +26,7 @@ from   mma.MMA.midiM import intToWord, intTo3Byte, intToLong, intToVarNumber, in
 import mma.MMA.midiC
 import mma.MMA.debug
 import mma.MMA.sync
-from . import gbl
+from   mma.MMA import gbl
 from   mma.MMA.common import *
 from   mma.MMA.miditables import NONETONE
 

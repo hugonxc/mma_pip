@@ -27,7 +27,7 @@ import subprocess
 import re
 
 from mma.MMA.common import *
-from . import gbl
+from mma.MMA import gbl
 import mma.MMA.file
 import mma.MMA.debug
 

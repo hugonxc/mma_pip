@@ -25,7 +25,7 @@ Handle -x options.
 """
 
 from common import *
-from . import gbl
+from mma.MMA import gbl
 import macro
 from mma.MMA.lyric import lyric
 

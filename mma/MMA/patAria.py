@@ -29,7 +29,7 @@ import mma.MMA.harmony
 from mma.MMA.keysig import keySig
 import mma.MMA.chords
 import mma.MMA.debug
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup
 

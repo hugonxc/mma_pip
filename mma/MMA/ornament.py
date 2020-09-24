@@ -26,7 +26,7 @@ All ornamentation functions.
 """
 
 from mma.MMA.common import *
-from . import gbl
+from   mma.MMA import gbl
 import mma.MMA.notelen
 import random
 import mma.MMA.debug

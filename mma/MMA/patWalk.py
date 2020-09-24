@@ -29,7 +29,7 @@ import random
 import mma.MMA.harmony
 import mma.MMA.notelen
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup
 

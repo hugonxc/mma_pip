@@ -27,7 +27,7 @@ import mma.MMA.notelen
 import mma.MMA.harmony
 import mma.MMA.ornament
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup
 

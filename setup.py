@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mma",
-    version="1.3.20.02",
+    version="1.4.20.02",
     author="Hugo Neves de Carvalho",
     author_email="hugonvsc@gmail.com",
     description="MMA - Music Midi Accompaniment available as a pip module",

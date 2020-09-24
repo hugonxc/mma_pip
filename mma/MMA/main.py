@@ -35,9 +35,9 @@ import mma.MMA.tempo
 import mma.MMA.debug
 from  mma.MMA.safe_eval import safeEnv
 
-from . import gbl
-from   mma.MMA.common import *
-from   mma.MMA.lyric import lyric
+from mma.MMA import gbl
+from mma.MMA.common import *
+from mma.MMA.lyric import lyric
 
 import mma.MMA.paths
 

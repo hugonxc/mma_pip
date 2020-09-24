@@ -30,7 +30,7 @@ import mma.MMA.alloc
 import mma.MMA.swing
 import mma.MMA.truncate
 
-from . import gbl
+from mma.MMA import gbl
 
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup

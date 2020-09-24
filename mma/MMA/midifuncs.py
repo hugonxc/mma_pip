@@ -24,7 +24,7 @@ Low level entry points, mostly called directly from the parser.
 """
 
 import struct
-from . import gbl
+from   mma.MMA import gbl
 import mma.MMA.mdefine
 from   mma.MMA.common import *
 import mma.MMA.debug

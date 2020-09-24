@@ -26,7 +26,7 @@ a lot of code. But some sequencers and notation programs absolutely require
 proper time sigs for correct operation. So, here you go.
 """
 
-from . import gbl
+from   mma.MMA import gbl
 import mma.MMA.midi
 from   mma.MMA.common import *
 

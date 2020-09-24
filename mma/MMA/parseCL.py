@@ -26,7 +26,7 @@ each "tab".
 
 """
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 
 import mma.MMA.truncate

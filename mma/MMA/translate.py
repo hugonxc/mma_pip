@@ -27,7 +27,7 @@ This module handles voice name translations.
 
 import mma.MMA.midiC
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 import mma.MMA.debug
 

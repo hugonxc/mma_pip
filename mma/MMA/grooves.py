@@ -41,8 +41,8 @@ import mma.MMA.docs
 import mma.MMA.debug
 
 from mma.MMA.timesig import timeSig
-from . import gbl
-from   mma.MMA.common import *
+from mma.MMA import gbl
+from mma.MMA.common import *
 
 
 glist = {}

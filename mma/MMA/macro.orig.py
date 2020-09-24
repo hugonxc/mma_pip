@@ -44,7 +44,7 @@ import mma.MMA.rpitch
 import mma.MMA.chords
 import mma.MMA.debug
 
-from . import gbl
+from mma.MMA import gbl
 
 from   mma.MMA.notelen import getNoteLen
 from   mma.MMA.keysig import keySig

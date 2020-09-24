@@ -24,7 +24,7 @@ Bob van der Poel <bob@mellowood.ca>
 
 import sys
 import os
-from . import gbl
+from   mma.MMA import gbl
 from   mma.MMA.common import *
 import mma.MMA.debug
 

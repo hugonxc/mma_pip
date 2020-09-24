@@ -35,7 +35,7 @@ import mma.MMA.swing
 
 import mma.MMA.paths
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 
 grooveDB = []        # when filled in it becomes [['dir', dict-db], ..]

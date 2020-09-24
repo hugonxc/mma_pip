@@ -26,7 +26,7 @@ All trigger functions.
 
 from mma.MMA.common import *
 import mma.MMA.debug
-from . import gbl
+from mma.MMA import gbl
 import mma.MMA.truncate
 
 import random

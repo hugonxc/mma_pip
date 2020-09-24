@@ -29,8 +29,8 @@ the sequences for later recall.
 import mma.MMA.midiC
 import mma.MMA.midiM
 
-from . import gbl
-from   mma.MMA.common import *
+from mma.MMA import gbl
+from mma.MMA.common import *
 
 
 def mdefine(ln):

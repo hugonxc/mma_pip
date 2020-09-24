@@ -29,7 +29,7 @@ import mma.MMA.notelen
 import mma.MMA.midiC
 from   mma.MMA.midiM import packBytes
 import mma.MMA.debug
-from . import gbl
+from   mma.MMA import gbl
 from   mma.MMA.common import *
 from   mma.MMA.keysig import keySig
 

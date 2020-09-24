@@ -35,7 +35,7 @@ import mma.MMA.patAria
 import mma.MMA.grooves
 import mma.MMA.debug
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 
 trkClasses = {

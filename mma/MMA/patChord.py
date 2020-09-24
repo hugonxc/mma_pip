@@ -28,7 +28,7 @@ import random
 
 import mma.MMA.notelen
 import mma.MMA.ornament
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 from mma.MMA.pat import PC, Pgroup
 import mma.MMA.debug
