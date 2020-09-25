@@ -24,7 +24,7 @@ After storage, setting and command insertion.
 
 """
 
-from . import gbl
+from mma.MMA import gbl
 from mma.MMA.common import *
 import mma.MMA.debug
 
